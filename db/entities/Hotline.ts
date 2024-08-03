@@ -19,5 +19,5 @@ id:number
          name: "shopId",
          referencedColumnName: "id"
     })
-   shop:Shop
+   shop:Partial<Shop>
 }
